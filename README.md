@@ -1,0 +1,1 @@
+This repository contains a simple example of a common error in Rust: accessing an element of a vector without first checking whether the vector is empty.  The `bug.rs` file demonstrates the problematic code, which will panic if the vector is empty. The `bugSolution.rs` file provides a corrected version which uses safe indexing methods.
